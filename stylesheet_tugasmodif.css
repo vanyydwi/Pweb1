@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #688aaf;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+p {
+    font-size:small;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul ol {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #476280; 
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; 
+    text-align: justify;
+}
+
+
+img {
+    border-radius: 10px; 
+}
+
+
+#Kontak p {
+    font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+    nav ul ol {
+        display: block; 
+        margin-bottom: 10px;
+    }
+
+    table {
+        display: block; 
+        overflow-x: auto; 
+        white-space: nowrap;
+    }
+}

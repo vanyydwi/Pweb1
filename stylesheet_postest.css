@@ -1,0 +1,14 @@
+h1{
+    color:rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(52, 126, 155);
+    text-align: center;
+}
+body{
+    background-image:url(image/logouniku.png);
+}
+p{
+    background-color:rgb(121, 173, 226);
+    border-radius: 30px;
+}
