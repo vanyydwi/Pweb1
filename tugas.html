@@ -3,70 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tugas Praktikum</title>
-
-    <header>
-        <h1 style="text-align: center;"><b>PROFIL PRIBADI</b></h1>
-        <p style="text-align: center;">Selamat Datang di Profil Pribadi Saya! Mari Mengenal Saya Lebih dekat lagi.</p>
-        <nav>
-            <ul style="text-align: center;">
-                <ol style="display: inline; margin:10px"><a href="#Home">Home</a></ol>
-                <ol style="display: inline; margin:10px"><a href="#Biodata">Biodata</a></ol>
-                <ol style="display: inline; margin:10px"><a href="#Kontak">Kontak</a></ol>
-            </ul>
-        </nav>
-    </header>
-    <hr>
+    <title>DAFTAR ALUMNI UNIKU</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <section id="Home">
-    <h2>Home</h2>
-    <table border="1" style="box-sizing: content-box;">
-    <tr>
-        <td><img src="image/IMG_3863.JPG" width="200px"></td>
-    <td style="text-align: justify;">Saya adalah mahasiswi Sistem Informasi di Universitas Kuningan. Selain aktif dalam perkuliahan, saya juga terlibat dalam organisasi kampus sebagai Sekretaris Divisi Public Relation. Pengalaman ini telah melatih saya untuk bekerja sama dalam tim, memecahkan masalah, dan mengembangkan kemampuan kepemimpinan.</td>
-    <td><img src="image/seminar .jpg" width="200px"></td>
-    <td style="text-align: justify;">Selain pengalaman berorganisasi saya juga pernah mengikuti program volunteer sebagai seksi kesekretariatan dalam seminar mental health yang telah memberikan saya pemahaman yang lebih mendalam tentang pentingnya kesehatan mental dan bagaimana cara mendukung orang lain yang sedang berjuang. Dalam peran ini, saya belajar untuk mengelola waktu dengan efisien, menyusun laporan, dan berkomunikasi dengan berbagai pihak. Melalui semua pengalaman ini, saya semakin termotivasi untuk terus belajar dan mengembangkan diri.</td>
-</tr>
-</table>
-</section>
+    <h1 id="header">Daftar Alumni UNIKU</h1>
+    <ul id="alumniList">
+        <li class="featured">Dede Irawan</li>
+        <li>Heri Gustaman</li>
+        <li class="featured">Wawan Setiawan</li>
+        <li>Aah Sumiah</li>
+    </ul>
+    
+    <div class="gallery">
+        <img src="img/download.jpeg" alt="Alumni Photo 1" width="150"/>
+    </div>
 
-<section id="Biodata">
-    <div>
-    <h2>Biodata</h2>
-    <table border="0" style="box-shadow: 20px;">
-        <img src="image/IMG_3935.JPG" width="200px" style="border-radius: 5%;" alt="Foto_Saya">
-        <tr>
-            <td>Nama</td>
-            <td>:</td>
-            <td>Vany Dwi Septiani</td>
-        </tr>
-        <tr>
-            <td>Tanggal Lahir</td>
-            <td>:</td>
-            <td>6, September 2005</td>
-        </tr>
-        <tr>
-            <td>Alamat</td>
-            <td>:</td>
-            <td>Awirarangan</td>
-        </tr>
-        <tr>
-            <td>Hobi</td>
-            <td>:</td>
-            <td>Mendengarkan Musik</td>
-        </tr>
-    </table>
-    <hr>
-</div>
-</section>
+    <div class="gallery">
+        <img src="img/paulo-dybala_6.jpg" alt="Alumni Photo 1" width="150"/>
+    </div>
 
-<section id="Kontak">
-    <div>
-    <h2 id="Kontak">Kontak</h2>
-    Kunjungi Instagram Saya, Untuk Berkenalan. <br>
-    <link href="https://www.instagram.com/vanyydwi/profilecard/?igsh=djFzZHRjdTUzMGUy"><p>@vanyydwi</p>
-</div>
-</section>
+    <div class="gallery">
+        <img src="img/rafael.jpg" alt="Alumni Photo 1" width="150"/>
+    </div>
+
+    <div class="gallery">
+        <img src="img/rizkyridho.jpeg" alt="Alumni Photo 1" width="150"/>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times</span>
+            <img id="modalImage" src="" alt="Selected Photo"/>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripttugas.js"></script>
 </body>
 </html>
